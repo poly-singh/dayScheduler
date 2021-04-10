@@ -19,8 +19,12 @@
 ![dayScheduler](./assets/images/dayScheduler.png)
 #### Work day Scheduler-Add Task on the calendar
 ![dayScheduler_addTask](./assets/images/dayScheduler_addTask.png)
+#### Wokr day Scheduler-color codes
+![dayscheduler_color](./assets/images/dayscheduler_color.png)
+
 
 #### Deployed application on github:
-
+https://github.com/poly-singh/dayScheduler
 
 ### Repository url:
+https://poly-singh.github.io/dayScheduler/ 
