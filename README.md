@@ -24,7 +24,7 @@
 
 
 #### Deployed application on github:
-https://github.com/poly-singh/dayScheduler
+https://poly-singh.github.io/dayScheduler/
 
 ### Repository url:
-https://poly-singh.github.io/dayScheduler/ 
+https://github.com/poly-singh/dayScheduler
