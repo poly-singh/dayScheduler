@@ -18,9 +18,10 @@ $(document).ready(function(){
     updateTasks(JSON.parse(localStorage.getItem('DaysofWeek')));
   }
 })
-
+//current time display using moment.js//
 $('#currentDay').text(moment().format('dddd') + ", " + moment().format('MMMM Do YYYY, h:mm:ss a'));
 var count = 1;
+//color coding as per the present time of the day//
 for(const item in DaysofWeek) {
   var Entry = "#entry" + count;
   $(Entry).text(DaysofWeek[item]);
@@ -44,7 +45,7 @@ $("button").click(function() {
   
   saveTasks(hourString, value);
 });
-
+ //converting the time in 24hrs format//
 function hourFromTime(hourString) {
   switch(hourString) {
     case "8 AM": return 8;
